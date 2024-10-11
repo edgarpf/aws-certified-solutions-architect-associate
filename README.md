@@ -61,4 +61,17 @@ This means it will intelligently route traffic to the closest point of presence 
 * VPC sharing makes use of the AWS Resource Access Manager (AWS RAM) service. It enables the sharing of VPCs across accounts. In this model, the account that owns the VPC (owner) shares one or more subnets with other accounts (participants) that belong to the same organization from AWS Organizations.
 * AWS Control Tower automates the setup of a new landing zone using best practices blueprints for identity, federated access, and account structure.
 * You can create a CloudTrail trail in the management account with the organization trails option enabled and this will create the trail in all AWS accounts within the organization.
+* Patch Manager automates the process of patching Windows and Linux managed instances. Use this feature of AWS Systems Manager to scan your instances for missing patches or scan and install missing patches. You can install patches individually or to large groups of instances by using Amazon EC2 tags.
+* AWS Systems Manager Run command is designed to run commands across a large group of instances without having to SSH into all your instances and run the same command multiple times.
+* AWS Systems Manager Patch Manager is designed to apply patches to EC2 instances and is not designed to run commands across a large group of instances.
+* With MySQL, authentication is handled by AWSAuthenticationPlugin—an AWS-provided plugin that works seamlessly with IAM to authenticate your IAM users.
+* CloudFront signed cookies are a method to control who can access your content.
+* You can configure a CloudWatch Logs log group to stream data it receives to your Amazon OpenSearch Service cluster in near real-time through a CloudWatch Logs subscription.
+* Amazon EBS fast snapshot restore (FSR) enables you to create a volume from a snapshot that is fully initialized at creation. This eliminates the latency of I/O operations on a block when it is accessed for the first time. Volumes that are created using fast snapshot restore instantly deliver all their provisioned performance.
+* You can share your CloudWatch dashboards with people who do not have direct access to your AWS account.
+* A virtual private gateway is a logical, fully redundant distributed edge routing function that sits at the edge of your VPC. You must create a VPG in your VPC before you can establish an AWS Managed site-to-site VPN connection. The other end of the connection is the customer gateway which must be established on the customer side of the connection.
+* Amazon EKS supports using AWS KMS keys for envelope encryption of Kubernetes secrets.
+* AWS Firewall Manager simplifies your administration and maintenance tasks across multiple accounts and resources for a variety of protections, including AWS WAF, AWS Shield Advanced, Amazon VPC security groups, AWS Network Firewall, and Amazon Route 53 Resolver DNS Firewall.
+* Gateway Load Balancers enable you to deploy, scale, and manage virtual appliances, such as firewalls, intrusion detection and prevention systems, and deep packet inspection systems. It combines a transparent network gateway (that is, a single entry and exit point for all traffic) and distributes traffic while scaling your virtual appliances with the demand.
+* AWS Amplify simplifies the process of hosting web applications with automated deployment processes. It also integrates with CloudFront, providing a global content delivery network to efficiently serve the game interface.
 * 
