@@ -74,4 +74,19 @@ This means it will intelligently route traffic to the closest point of presence 
 * AWS Firewall Manager simplifies your administration and maintenance tasks across multiple accounts and resources for a variety of protections, including AWS WAF, AWS Shield Advanced, Amazon VPC security groups, AWS Network Firewall, and Amazon Route 53 Resolver DNS Firewall.
 * Gateway Load Balancers enable you to deploy, scale, and manage virtual appliances, such as firewalls, intrusion detection and prevention systems, and deep packet inspection systems. It combines a transparent network gateway (that is, a single entry and exit point for all traffic) and distributes traffic while scaling your virtual appliances with the demand.
 * AWS Amplify simplifies the process of hosting web applications with automated deployment processes. It also integrates with CloudFront, providing a global content delivery network to efficiently serve the game interface.
-* 
+* Long Polling will eliminate empty responses by allowing Amazon SQS to wait until a message is available in a queue before sending a response.
+* You can use VPC Flow Logs to capture detailed information about the traffic going to and from your Elastic Load Balancer. Create a flow log for each network interface for your load balancer. There is one network interface per load balancer subnet.
+* In general, when your object size reaches 100 MB, you should consider using multipart uploads instead of uploading the object in a single operation.
+* AWS Service Catalog enables organizations to create and manage catalogs of IT services that are approved for use on AWS. It allows centrally managed service portfolios, which clients can use on a self-service basis.
+* EMR utilizes a hosted Hadoop framework running on Amazon EC2 and Amazon S3.
+* AWS Transfer Family provides fully managed support for file transfers directly into and out of Amazon S3 using SFTP. Storing incoming files in S3 Standard offers high durability, availability, and performance object storage for frequently accessed data.
+* Connection draining is enabled by default and provides a period of time for existing connections to close cleanly. When connection draining is in action an CLB will be in the status “InService: Instance deregistration currently in progress”.
+* You can specify the instance store volumes for your instance only when you launch an instance. You can’t attach instance store volumes to an instance after you’ve launched it.
+* There is no direct way to change the encryption state of an EBS volume.
+* A custom NACL denies all traffic both inbound and outbound by default.
+* Default security groups have inbound allow rules (allowing traffic from within the group) whereas custom security groups do not have inbound allow rules (all inbound traffic is denied by default). All outbound traffic is allowed by default in custom and default security groups.
+* For an ALB the possible protocols are HTTP and HTTPS. The default is the HTTP protocol.
+* The unit of measure for Aurora Serverless v2 is the Aurora capacity unit (ACU). Each ACU includes about 2 gibibytes (GiB) of memory, along with the necessary CPU and networking.
+* With Lambda SnapStart for Java, Lambda initializes functions as new versions are published. Lambda then takes a Firecracker microVM snapshot of the memory and disk state of the initialized execution environment, encrypts the snapshot, and caches it for low-latency access.
+* The feature mechanisms that enable the management of account drift are already built into the Control Tower.
+* In S3 object lock governance mode, users can’t overwrite or delete an object version or alter its lock settings unless they have special permissions. In compliance mode, a protected object version can’t be overwritten or deleted by any user, including the root user in your AWS account.
